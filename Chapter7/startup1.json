@@ -1,0 +1,11 @@
+[
+  {"description":"Do login action",
+    "request": {
+      "uri": "/login"
+    },
+    "response": {
+      "text": "Login Success!"
+    }
+  }
+
+]

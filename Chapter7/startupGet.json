@@ -1,0 +1,26 @@
+[
+  {
+    "description": "模拟没有参数的get请求",
+    "request": {
+      "uri": "/getTenants",
+      "method": "get"
+    },
+    "response": {
+      "text": "tenats json objects"
+    }
+  },
+  {
+    "description": "模拟有参数get请求",
+    "request": {
+      "uri": "/getTenantsWithParam",
+      "method": "get",
+      "queries": {
+        "name": "John",
+        "age": "35"
+      }
+    },
+    "response": {
+      "text": "get tenants with parameters successfully!"
+    }
+  }
+]

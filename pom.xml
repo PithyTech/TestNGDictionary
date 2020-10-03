@@ -27,6 +27,7 @@
     <modules>
         <module>testng1</module>
         <module>Chapter5</module>
+        <module>Chapter6</module>
     </modules>
 
 </project>

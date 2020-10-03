@@ -6,4 +6,22 @@
         <suite-file path="MultiThreadOnXml-tests.xml"></suite-file>
         <suite-file path="MultiThreadOnXml-classes.xml"></suite-file>
     </suite-files>
+    <suite-files>
+        <suite-file path="Groups.xml"></suite-file>
+    </suite-files>
+    <suite-files>
+        <suite-file path="Parameters.xml"></suite-file>
+        <suite-file path="Suite.xml"></suite-file>
+    </suite-files>
+    <suite-files>
+        <suite-file path="TimeOut.xml"></suite-file>
+        <suite-file path="Assert.xml"></suite-file>
+    </suite-files>
+
+    <listeners>
+        <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener> -->
+        <listener class-name="com.course.testng.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+
+    
 </suite>
