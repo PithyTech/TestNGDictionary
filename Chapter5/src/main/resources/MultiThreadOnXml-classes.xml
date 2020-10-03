@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--
+    parallel="classes" 是给classes分配不同的thread 级别所有用例都可以在不同的thread中运行
+    但是xml的形式配置只能设置 thread-count 而不能设置 threadPoolSize了，只有annotation形式可以设置threadPoolSize
+-->
+<suite name="methodSuite-tests" parallel="classes" thread-count="8">
+    <test name="multi23">
+        <classes>
+            <class name="com.course.testng.multithread.MultiThreadTest2"></class>
+            <class name="com.course.testng.multithread.MultiThreadTest3"></class>
+        </classes>
+    </test>
+    <test name="multi4">
+        <classes>
+            <class name="com.course.testng.multithread.MultiThreadTest4"></class>
+        </classes>
+    </test>
+</suite>

@@ -26,6 +26,7 @@
     </build>
     <modules>
         <module>testng1</module>
+        <module>Chapter5</module>
     </modules>
 
 </project>
